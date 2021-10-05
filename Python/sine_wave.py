@@ -18,6 +18,6 @@ ax.axhline(y=0, color='k')
 ax.axvline(x=0, color='k')
 
 plt.plot(x, y)
+plt.savefig('Test.png') #saving a copy
 plt.show()
 
-plt.savefig('Example.png')
